@@ -421,29 +421,8 @@ footer {
   justify-content: space-between;
   background: var(--primary-color);
   width: 100%;
-  padding: 40px 35px;
+  padding: 10px 35px;
 }
-
-footer h2 {
-  color: var(--secondary-color);
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  line-height: 1.5;
-  text-align: right;
-}
-
-/* Heart emoji */
-footer h2 span {
-  color: red;
-}
-
-section {
-  padding: 60px;
-}
-
 
 /* RWD for max-width 980px */
 @media screen and (max-width: 980px) {
@@ -475,12 +454,6 @@ section {
     color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
-  }
-
-  footer h2,
-  footer div {
-    text-align: center;
-    width: 100%;
   }
 
   .hero-cta,
