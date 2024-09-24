@@ -418,10 +418,11 @@ h3 {
 
 /* Footer section */
 footer {
-  justify-content: space-between;
+  justify-content: center;
   background: var(--primary-color);
   width: 100%;
-  padding: 10px 35px;
+  padding: 0 0 15px 20px;
+  font-size: 1.2rem;
 }
 
 /* RWD for max-width 980px */
